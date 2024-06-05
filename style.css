@@ -70,12 +70,46 @@ body{
     visibility: hidden;
     color: white;
     width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    
 }
 #projectsSection{
     visibility: hidden;
     color: white;
     width: 70%;
+    text-align: center;
+    
+    margin: auto;
+    margin-top: 50px;
+    margin-right: 50px;
+
+    display: flex;
+    justify-content: space-between;
+
 }
+
 #aboutButton{
     background-color: #4B4B4B;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+.sections div {
+    position: absolute;
+
+    
+}
+a{
+    color: white;
 }
