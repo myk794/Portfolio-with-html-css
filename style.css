@@ -1,0 +1,81 @@
+body{
+    background-color: #444444;
+}
+.profilePic{
+    border: 5px solid #ECC539;
+    border-radius: 50%;
+    height: 135px;
+    width: 135px;  
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 50px;
+
+}
+.name{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 0%;
+    
+}
+.job{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: lighter;
+    
+    
+}
+.line{
+    height: 1px;
+    background-color: #ffffff;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.button1{
+    background-color: #444444;
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.button1:hover{
+    background-color: #4B4B4B;
+}
+.buttons{
+    width: 80%;
+    margin: auto;
+    display: flex;
+  justify-content: space-between;
+}
+#aboutSection{
+    width: 70%;
+    background-color: #4B4B4B;
+    color: white;
+    margin: auto;
+    visibility: visible;
+    padding: 10px;
+    margin-top: 50px;
+    padding-left: 20px;
+    font-family: sans-serif;
+
+}
+#linkSection{
+    visibility: hidden;
+    color: white;
+    width: 70%;
+}
+#projectsSection{
+    visibility: hidden;
+    color: white;
+    width: 70%;
+}
+#aboutButton{
+    background-color: #4B4B4B;
+}
